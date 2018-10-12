@@ -233,3 +233,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 set lazyredraw
 set ttyfast
 set hidden
+
+set clipboard=unnamedplus
+set viminfo='100,<1000,s100,h
+set paste
