@@ -5,7 +5,7 @@ if [[ ! -r $HOME/dotfiles/.git ]]; then
   exit 1
 fi
 
-default_python_version=$(python -c "import sys; print '{}.{}'.format(sys.version_info.major, sys.version_info.minor)")
+default_python_version=$(python -c "import sys; print('{}.{}'.format(sys.version_info.major, sys.version_info.minor))")
 echo "Default python version: $default_python_version"
 
 echo "Installing pip modules"
