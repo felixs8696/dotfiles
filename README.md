@@ -31,10 +31,10 @@ NOTE: The default bind-key is usually `CTRL + b` in most tmux configurations, bu
 ## Common commands within TMUX session (check `.tmux.conf` for more)
 | Shortcut | Action |
 |--|--|
-|`CTRL + c`| Opens New tmux window|
-|`CTRL + d`| Close current tmux pane or window |
+|`CTRL + d`| Close current tmux pane or window (current line must be empty) |
 |`SHIFT + left-arrow`| Switch to the previous tmux window |
 |`SHIFT + right-arrow`| Switch to the next tmux window |
+|`bind-key + c`| Opens New tmux window|
 |`bind-key + w`| Opens list of all your created windows|
 |`bind-key + v`| Opens a new vertical tmux pane |
 |`bind-key + s`| Opens a new horizontal tmux pane |
