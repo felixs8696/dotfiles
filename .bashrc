@@ -46,6 +46,9 @@ alias .........='cd ../../../../../../../..'
 
 alias ll='ls -lah'
 
+alias vibash="vi ~/.bashrc"
+alias sourcebash="source ~/.bashrc"
+
 if [ -r "$(which powerline-shell)" ]; then
   # powerline-shell prompt command
   function _update_ps1() {
